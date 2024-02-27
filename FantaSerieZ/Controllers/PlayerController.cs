@@ -15,8 +15,8 @@ public class PlayerController : ControllerBase
    }
 
    [HttpGet]
-   public ActionResult Get(int take = 10, int skip = 0)
+   public ActionResult Get()
    {
-       return Ok(_playerManager.Player.OrderBy(p => p.TwitchToken).Skip(skip).Take(take));
+       return Ok(_playerManager.Players.OrderBy(x => x.PlayerId));
    }
 }

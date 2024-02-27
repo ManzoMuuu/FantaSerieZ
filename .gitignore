@@ -1,2 +1,7 @@
 
 FantaSerieZ/appsettings.Development.json
+FantaSerieZ/Controllers/PlayerController.cs
+FantaSerieZ/Controllers/ProductsController.cs
+FantaSerieZ/Data/Product.cs
+FantaSerieZ/Data/SalesContext.cs
+FantaSerieZ/Data/ProductCategory.cs

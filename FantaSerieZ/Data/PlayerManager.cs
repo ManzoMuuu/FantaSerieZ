@@ -7,6 +7,6 @@ namespace FantaSerieZ.Data
 
         }
 
-        public DbSet<Player>? Player { get; set; }
+        public DbSet<Player>? Players { get; set; }
     }
 }
