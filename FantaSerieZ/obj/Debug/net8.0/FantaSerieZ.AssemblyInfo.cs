@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FantaSerieZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4ea951f6a45c0913737c7c071f48349a9ebe561")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fec8d7ac8ec435ee3adea9b12eff053c9cd7720")]
 [assembly: System.Reflection.AssemblyProductAttribute("FantaSerieZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FantaSerieZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

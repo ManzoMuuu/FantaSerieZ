@@ -15,8 +15,8 @@ public class PlayerController : ControllerBase
    }
 
    [HttpGet]
-   public ActionResult Get()
+   public ActionResult Get(int take = 10, int skip = 0)
    {
-       return Ok(_playerManager.Players.OrderBy(x => x.PlayerId));
+       return Ok(_playerManager.Players.OrderBy(x => x.PlayerId).Skip(skip).Take(take));
    }
 }

@@ -27,6 +27,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting(); // Aggiunto per abilitare il routing
+
+app.UseAuthorization(); // Assicurati di aggiungere questo se utilizzi l'autenticazione/autorizzazione
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers(); // Aggiunto per mappare i controller
+});
 
 app.Run();
 
